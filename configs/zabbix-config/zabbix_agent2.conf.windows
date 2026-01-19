@@ -1,0 +1,14 @@
+### Paramètres de connexion au serveur
+Server=10.0.0.195
+ServerActive=10.0.0.195
+
+### Identification de l'hôte
+# Doit correspondre au nom défini lors de l'installation MSI
+Hostname=Zabbix-Client-Windows-BOULAALAM
+
+### Logs
+LogFile=C:\Program Files\Zabbix Agent 2\zabbix_agent2.log
+
+### Sécurité
+# Port d'écoute standard pour l'agent
+ListenPort=10050

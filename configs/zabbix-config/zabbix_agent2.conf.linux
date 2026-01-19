@@ -1,0 +1,11 @@
+### Paramètres de connexion au serveur
+Server=10.0.0.195
+ServerActive=10.0.0.195
+
+### Identification de l'hôte
+# Doit correspondre exactement au nom dans l'interface Web Zabbix
+Hostname=Zabbix-Client-Linux-BOULAALAM
+
+### Paramètres de performance
+ControlSocket=/tmp/agent.sock
+Include=/etc/zabbix/zabbix_agent2.d/*.conf
