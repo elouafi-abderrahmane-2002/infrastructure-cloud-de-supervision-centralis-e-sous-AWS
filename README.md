@@ -24,7 +24,7 @@ L'infrastructure repose sur un réseau segmenté et sécurisé au sein d'AWS :
 ## 🚀 Guide d'installation pas à pas
 
 ### 1. Configuration Réseau (AWS Console)
-1. Créer le VPC `VPC-Zabbix-BOULAALAM` et attacher l'IGW .
+1. Créer le VPC `VPC-Zabbix-ELOUAFI` et attacher l'IGW .
 2. Configurer la table de routage avec une route par défaut `0.0.0.0/0` vers l'IGW.
 3. Configurer les **Security Groups** pour autoriser les ports 80, 22, 3389, 10050 et 10051
 
