@@ -14,7 +14,7 @@ L'infrastructure repose sur un réseau segmenté et sécurisé au sein d'AWS :
 * 🪟 1 Instance Windows Server 2022 (`t3.large`).
 * **Flux** : Communication via les ports `10050` (Agent) et `10051` (Trapper).
 
-![Architecture](./captures/90.png)
+
 
 ## 🛠️ Prérequis
 * Compte **AWS Academy Learner Lab**.
@@ -56,13 +56,7 @@ Les agents sont configurés pour utiliser des **Active Checks** afin d'optimiser
 **Connectivité** | Statut **ZBX** vert pour les clients Linux et Windows 
 **Dashboard** | Vue globale avec alertes actives (Current Problems) 
 ---
-![Instances EC2](./captures/89.png)
 
-![Statut ZBX](./captures/58.png)
-
-![Tableau de bord Zabbix](./captures/85.png)
-
-![TDocker conteneurs actifs](./captures/33.png)
 
 ## 🔍 Troubleshooting
 * **Network Unreachable** : Vérifier que la table de routage (`0.0.0.0/0`) est correctement associée au subnet.
