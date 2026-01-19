@@ -65,6 +65,6 @@ Les agents sont configurés pour utiliser des **Active Checks** afin d'optimiser
 
 
 ## 👤 Auteur
-* **Étudiant** : Mohamed BOULAALAM
+* **Étudiant** : elouafi abderrahmane
 * **Encadrant** : Prof. Azeddine KHIAT
 * **Année** : 2025/2026
